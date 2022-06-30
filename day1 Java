@@ -1,0 +1,149 @@
+/*
+2022-06-30  
+첫 자바 프로그램
+by 이준성
+*/
+
+class Main {
+  public static void main(String[] args) {
+
+int x, y, z;
+    
+    x = 63;
+    y = 18;
+    z = 52;
+
+    System.out.println("합계는 " + (x + y) + "입니다.");
+    
+// int x; // x는 int형 변수
+//     int y; //y는 int형 변수 <<< 1
+    
+//     x = 63;//x에 63을 대입
+//     y = 18;//y에 18을 대입 <<<<< 2
+
+//     System.out.println("x값은 " + x + "입니다");
+//     System.out.println("y값은 " + y + "입니다");
+// System.out.println("합계는 " + (x + y) + "입니다.");
+//     System.out.println("평균은는 " + (x + y) / 2 + "입니다.");
+    
+
+// 첫번째    
+// System.out.println("첫 Java 프로그램입니다.");
+// System.out.println("화면에 출력하고 있습니다.");
+
+// //두번째
+//     System.out.println("첫 Java 프로그램입니다. 화면에 출력하고 있습니다.");
+
+//     //세번째
+//     System.out.print("첫 Java 프로그램입니다.");
+// System.out.println("화면에 출력하고 있습니다.");
+    
+    
+
+//     System.out.println("금"); //System.out.print (ln)넣으면 줄 바꿈
+//   System.out.println("상");
+// System.out.println("첨");
+// System.out.println("화");
+//     //출력값
+//    // 금
+//    // 상
+//    // 첨
+//    // 화
+    
+    
+// System.out.print("금"); //System.out.print (ln)넣으면 줄 바꿈
+//   System.out.print("상");
+// System.out.print("첨");
+// System.out.print("화");
+//출력값 금상첨화
+
+
+
+
+
+
+
+// import java.util.Scanner;//Scanner를 사용하기 위해 추가 *은 모든것 (언제나 똑같다)
+// //import 중요한걸 가져와서 객채를 사용하는 방법
+// class Main {
+//   public static void main(String[] args) {
+// //main 메서드의 시작 부분(값을 입력받는 c이전에)작성한다 << b
+// //     Scanner stdIn = new Scanner(System.in);
+// // //키보드에서 입력한 정숫값표시
+// //   // 프로그램의 시작 부분(클래스 선언 이전)에 작성한다<< a 원래 위치 import java.util.Scanner;여기임
+    
+// //     System.out.print("정숫값:");
+// //     //키보드를 통해 입력한 정숫값을 받는다 << c
+
+// //     int x = stdIn.nextInt(); //입력받은 정숫값을 x에 저장한다.
+// //     System.out.println("10을 더한 값은 " + (x + 10)+ "입니다.");
+// //     System.out.println("10을 뺀 값은 " + (x - 10)+ "입니다.");
+
+    
+    
+   // Scanner scanner = new Scanner(System.in);//스캐너 객체생성 (언제나 똑같다) 
+//     //57
+// System.out.print("두자리 정수를 하나 입력해주세요.>");
+//   String input = scanner.nextLine();//스캐너 객채생성한것을 문자로 입력을 받음 String 이기 때문에 
+//     int num = Integer.parseInt(input);//입력받은 문자열을 숫자로 변환
+    
+// System.out.println("입력내용 :"+input);//문자로 출력
+//     System.out.printf("num=%d%n", num);//숫자로 출력 %d는 뒤에있는 값을 %n은 줄 바꿈
+    
+
+
+    
+    
+    // System.out.println("82 + 17 = " + (82 + 17));
+    // System.out.println("82 + 17 = " + (82 - 17));
+    //2개의 정숫값 82와 17의 합과 차를 구해서 표시(계산 식과 결과 표시)
+
+//     System.out.println("82 + 17 = " + 82 + 17);
+//     System.out.println("82 + 17 = " + (82 - 17));
+// //괄호를 지워 본다 문자로 인식하여서 8217이 나온다
+    
+    
+//     String name = "Ja" + "va"; //ja라는 문자열과 va라는 문자열을 붙여서 문자열 변수 name에 할당한다.
+//     //스트링 시스템 S는 대문자
+//     String str = name + 8.0;//name이라는 문자열 형 변수값과 8.0이라는 실수를 붙여서 문자열변수 str에 할당
+// //8.0실수이지만 자동 형 변환
+//     System.out.println(name);//이름출력
+//     System.out.println(str);//
+//     System.out.println(7 + " ");//빈칸출력
+//     System.out.println(" " + 7);//스트링은 문자열 글자열을 할때 나옴
+//     System.out.println(7 + "");
+//     System.out.println("" + 7);
+//     System.out.println("" + "");//아무것도 없는칸
+//     System.out.println(7 + 7 + "");//숫자숫자 계산이 된다
+//     System.out.println("" + 7 + 7);//이건 앞에 있는 문자가 우선이라 7을 실수가 아니라 문자로 인식해서 자동 형변환이 되어서 글자끼리 붙었다
+    
+    
+    
+    
+  // //   System.out.println("Hello world!"); // "Hello World"출력
+  // //   //System.out.println("코드의 실행을 중지시킬 경도 사용");
+  // // }
+
+  //   int x = 10, y = 20;
+  //   int tmp = 0;//변수의 0을넣어서 초기화를 했다
+
+  //   System.out.println("x:"+ x + " y:" + y +" tmp :" + tmp);//변수값을 출력  
+
+  //   tmp = x; //tmp =10
+  //   x = y; //x = 20
+  //   y = tmp; //y = 10
+
+  //   //파이썬 x, y = y, x 한줄로 교환가능 자바는 안되어서 변수를 써서 교환을 해야함
+
+  //   System.out.println("x:"+ x + " y:" + y +" tmp :" + tmp);//변수값을 출력  
+ 
+  //   //이래서 자바는 그냥 막 바꿀수없고 tmp에 x를 넣어야 한다
+  //   // tmp = x;
+  //   // x = y;//x랑y를 교환
+  //   // y = tmp;
+    
+  //   // System.out.println("x:"+ x + " y:" + y);  
+
+    
+  }
+}
